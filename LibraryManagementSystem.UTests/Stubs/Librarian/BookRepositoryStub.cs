@@ -1,5 +1,5 @@
 ﻿using LibraryManagementSystem.Models;
-using LibraryManagementSystem.Data.Interface;
+using LibraryManagementSystem.Data.Interface.Librarian;
 
 namespace LibraryManagementSystem.UTests.Stubs.Librarian
 {

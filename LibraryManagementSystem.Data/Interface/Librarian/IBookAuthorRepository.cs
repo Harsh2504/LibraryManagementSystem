@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace LibraryManagementSystem.Data.Interface
+namespace LibraryManagementSystem.Data.Interface.Librarian
 {
     public interface IBookAuthorRepository
     {

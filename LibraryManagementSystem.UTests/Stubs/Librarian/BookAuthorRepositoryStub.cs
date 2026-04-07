@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using LibraryManagementSystem.Data.Interface;
+using LibraryManagementSystem.Data.Interface.Librarian;
 
 namespace LibraryManagementSystem.UTests.Stubs.Librarian
 {

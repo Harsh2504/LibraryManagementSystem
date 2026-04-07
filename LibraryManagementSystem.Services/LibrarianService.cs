@@ -1,5 +1,5 @@
-﻿using LibraryManagementSystem.Data.Interface;
-using LibraryManagementSystem.Models;
+﻿using LibraryManagementSystem.Models;
+using LibraryManagementSystem.Data.Interface.Librarian;
 
 namespace LibraryManagementSystem.Services
 {

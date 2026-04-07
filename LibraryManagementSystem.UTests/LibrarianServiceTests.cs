@@ -3,6 +3,8 @@ using LibraryManagementSystem.UTests.Stubs;
 using LibraryManagementSystem.Models;
 using LibraryManagementSystem.Services;
 using static Microsoft.ApplicationInsights.MetricDimensionNames.TelemetryContext;
+using LibraryManagementSystem.UTests.Stubs.Librarian;
+using LibraryManagementSystem.Data.Interface.Librarian;
 
 namespace LibraryManagementSystem.UTests
 {
@@ -111,5 +113,8 @@ namespace LibraryManagementSystem.UTests
             // Act & Assert
             Assert.Throws<ArgumentException>(() => librarianService.AddBook(book, authors));
         }
+
+        //Delete entries from book as well as book_author
+        
     }
 }
