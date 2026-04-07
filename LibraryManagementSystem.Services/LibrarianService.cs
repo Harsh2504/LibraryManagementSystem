@@ -1,4 +1,4 @@
-﻿using LibraryManagementSystem.Data;
+﻿using LibraryManagementSystem.Data.Interface;
 using LibraryManagementSystem.Models;
 
 namespace LibraryManagementSystem.Services
@@ -24,6 +24,16 @@ namespace LibraryManagementSystem.Services
 
         public void AddBook(Book book, List<Author> authors)
         {
+            if (book == null) throw new ArgumentNullException(nameof(book));
+            if (string.IsNullOrWhiteSpace(book.BookName)) throw new ArgumentException("Book name cannot be empty or whitespace.", nameof(book));
+
+            if (authors != null)
+            {
+                foreach (var author in authors)
+                {
+                    if (string.IsNullOrWhiteSpace(author.AuthorName)) throw new ArgumentException("Author name cannot be empty or whitespace.", nameof(authors));
+                }
+            }
 
             // 1. Add book
             var savedBook = _bookRepo.Add(book);

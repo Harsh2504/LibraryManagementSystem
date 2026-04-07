@@ -1,6 +1,7 @@
 ﻿using LibraryManagementSystem.Models;
+using LibraryManagementSystem.Data.Interface;
 
-namespace LibraryManagementSystem.Data.Stubs
+namespace LibraryManagementSystem.UTests.Stubs.Librarian
 {
     public class BookRepositoryStub : IBookRepository
     {

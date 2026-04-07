@@ -2,8 +2,9 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using LibraryManagementSystem.Data.Interface;
 
-namespace LibraryManagementSystem.Data.Stubs
+namespace LibraryManagementSystem.UTests.Stubs.Librarian
 {
     public class BookAuthorRepositoryStub : IBookAuthorRepository
     {
