@@ -1,3 +1,7 @@
 <Solution>
-  <Project Path="LibraryManagementSystem/LibraryManagementSystem.csproj" />
+  <Project Path="LibraryManagementSystem.Data/LibraryManagementSystem.Data.csproj" Id="4f505ea3-46bf-414d-ae69-a2ebd77f10d5" />
+  <Project Path="LibraryManagementSystem.Models/LibraryManagementSystem.Models.csproj" Id="7f93b4b9-08a1-4387-af87-0d646dbf75b5" />
+  <Project Path="LibraryManagementSystem.Services/LibraryManagementSystem.Services.csproj" Id="c5479c3e-2654-4856-8881-18e660553b4f" />
+  <Project Path="LibraryManagementSystem.UTests/LibraryManagementSystem.UTests.csproj" Id="c8780c21-2e57-4d50-a0a7-6c7578582dd3" />
+  <Project Path="LibraryManagementSystem/LibraryManagementSystem.Console.Student.csproj" />
 </Solution>
